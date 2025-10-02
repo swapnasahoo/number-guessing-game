@@ -26,4 +26,9 @@ button{
 }
 #errormessage{
     color: red;
+    border: 1px solid gray;
+}
+#po2ans{
+    color: Gredd;
+    border: 1px solid black;
 }
