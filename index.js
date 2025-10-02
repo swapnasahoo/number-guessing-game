@@ -1,3 +1,10 @@
+ // get player name from localStorage
+    const playerName = localStorage.getItem("playerName") || "Player";
+    document.getElementById("myh1").textContent = "Hello, " + playerName + " 👋";
+
+
+
+
 
 let guess;
 let minNum = 1;
@@ -32,8 +39,7 @@ else if (attempts === maxattempts) {
                 }
         
                 else{
-                       document.getElementById("errormessage").innerText = (` 🎉 Congrats, you nailed it!🔥 The answer was ${answer} it took you ${attempts}  attempt “🥳 Congrats, Sherlock!`) ;
-                        
+                 document.getElementById("errormessage").innerText = (` 🎉 Congrats, you nailed it!🔥 The answer was ${answer} it took you ${attempts}  attempt “🥳 Congrats, Sherlock!`) ; 
                 }
        
    }

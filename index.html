@@ -9,16 +9,28 @@
 <body>
         <main>
             <img src="logo1.jpg" alt="logo1">
-    <h1 for="input" style="font-size: 15px;">🔮 Guess the Secret Number Between 1 and 100 🎯 </h1><br>
-    <input type="text" id="po1" placeholder=" guess" style="width: 50px; padding: 5px; margin: 4px; cursor: pointer; border-radius: 10px;"><br><br>
-    <button id="guess">Guess</button>
+    <h1 id="h12">Hello!</h1><br>
+    <label for="username">Enter your Username</label><br><br>
+    <input type="text" id="po2" placeholder=" Your name " required style="padding: 10px; border-radius: 10px; "><br><br>
+    <!-- <a href="main.html" ></a> -->
+    <button onclick="startGame()"style="padding: 6px;">Start Game</button>
 
-<p id="errormessage"></p>
-    <p id="po2ans"></p>
     
    
 </main>
 
-    <script src="index.js"></script>
+    
+        <script>
+    function startGame() {
+      let name = document.getElementById("po2").value;
+      if(name.trim() !== ""){
+        localStorage.setItem("playerName", name);
+        window.location.href = "main.html";
+      } else {
+        alert("Please enter a name first!");
+      }
+    }
+  </script>
+
 </body>
 </html>
