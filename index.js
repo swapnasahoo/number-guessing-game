@@ -30,7 +30,7 @@ if (isNaN(guess)) {
                         document.getElementById("errormessage").innerText =("Too high! Try again");
                 }
                 else{
-                        document.getElementById("po2ans").innerText = (`CORRECT! The answer was ${answer} it took you ${attempts}  attempt `) ;
+                        document.getElementById("po2ans").innerText = (`CORRECT! “🤔 Took you long enough, but you got it, The answer was ${answer} it took you ${attempts}  attempt “🥳 Congrats, Sherlock!”`) ;
                          running = false;
                 }
    }
