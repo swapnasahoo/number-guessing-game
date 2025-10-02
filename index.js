@@ -1,9 +1,9 @@
 
 let guess;
-let minNum = 1;
-let maxNum = 100;
+let minNum = 3;
+let maxNum = 47;
 let attempts = 0;
-let answer = Math.floor(Math.random() * maxNum - minNum + 1 );
+let answer = Math.floor(Math.random() * maxNum - minNum + 2 );
 document.getElementById("guess").onclick = function () {
      guess   =  document.getElementById("po1").value;
 
