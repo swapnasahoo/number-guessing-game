@@ -4,7 +4,7 @@ body{
     align-items: center;
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 800;
+    font-weight: 500;
     background: linear-gradient(135deg, #1e3c72, #2a5298);
 }
 main{
@@ -27,8 +27,12 @@ button{
 #errormessage{
     color: red;
     border: 1px solid gray;
+    padding: 10px;
+    margin: 10px
 }
 #po2ans{
     color: Green;
     border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
 }
