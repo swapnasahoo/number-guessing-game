@@ -32,8 +32,7 @@ else if (attempts === maxattempts) {
                 }
         
                 else{
-                       document.getElementById("errormessage").innerText = (`CORRECT! 🤔 Took you long enough, but you got it, The answer was ${answer} it took you 
-                        ${attempts}  attempt “🥳 Congrats, Sherlock!`) ;
+                       document.getElementById("errormessage").innerText = (` 🎉 Congrats, you nailed it!🔥 The answer was ${answer} it took you ${attempts}  attempt “🥳 Congrats, Sherlock!`) ;
                         
                 }
        
