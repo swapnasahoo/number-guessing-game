@@ -28,11 +28,6 @@ button{
     color: red;
     border: 1px solid gray;
     padding: 10px;
-    margin: 10px
-}
-#po2ans{
-    color: Green;
-    border: 1px solid black;
-    padding: 10px;
     margin: 10px;
+    border-radius: 15px;
 }
