@@ -9,7 +9,7 @@ body{
 }
 main{
     background: linear-gradient(135deg, #8e2de2, #4a00e0);
-    box-shadow: 10px 10px rgb(24, 18, 18);
+    box-shadow: 0 4px 15px rgba(106, 13, 173, 0.6);
     border-radius: 50px;
     color: #ffffff;
     width: 50%;
