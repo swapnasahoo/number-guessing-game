@@ -1,20 +1,20 @@
-body{
-    height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: bold;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
-}
-main{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    text-align: center;
-    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    
+}
+main{
+    
+    background: linear-gradient(136deg, #9027ec, #4d00e7);
     box-shadow: 0 4px 15px rgba(106, 13, 173, 0.6);
     border-radius: 50px;
-    color: #ffffff;
-    padding: 100px;
+    color: white;
+    width: 50%;
+    padding: 40px;
     margin: 30px;
     text-align: center;
 }
@@ -23,7 +23,7 @@ button{
     color: rgb(250, 197, 197);
     padding: 5px;
     margin: 10px;
-    border-radius: 8px;
+    border-radius: 9px;
 }
 #errormessage{
     background-color: black;
@@ -33,4 +33,11 @@ button{
     margin: 10px;
     border-radius: 15px;
     font-style: bold;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
 }
