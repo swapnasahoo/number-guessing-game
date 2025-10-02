@@ -1,18 +1,17 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body{
     height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: bold;
     background: linear-gradient(135deg, #1e3c72, #2a5298);
 }
 main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(135deg, #8e2de2, #4a00e0);
     box-shadow: 0 4px 15px rgba(106, 13, 173, 0.6);
     border-radius: 50px;
-    color: #ffffff;
-    width: 50%;
+    color: #ffffff;
     padding: 100px;
     margin: 30px;
     text-align: center;
@@ -25,8 +24,8 @@ button{
     border-radius: 8px;
 }
 #errormessage{
-    color: red;
-    border: 1px solid gray;
+    color: green;
+    border: 2px solid black;
     padding: 10px;
     margin: 10px;
     border-radius: 15px;
