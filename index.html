@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NumberGuessing</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-        <main>
-            <img src="logo1.jpg" alt="logo1">
-    <h1 id="h12">Hello!</h1><br>
-    <label for="username">Enter your Username</label><br><br>
-    <input type="text" id="po2" placeholder=" Your name " required style="padding: 10px; border-radius: 10px; "><br><br>
-    <!-- <a href="main.html" ></a> -->
-    <button onclick="startGame()"style="padding: 6px;">Start Game</button>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <img src="images/game-logo.jpg" alt="game-logo" />
+      <h1 id="h12">Hello!</h1>
+      <label for="username" id="label-game-username">Enter your username</label>
+      <input
+        type="text"
+        id="input-game-username"
+        placeholder="Enter your username"
+        required
+      /><br /><br />
+      <!-- <a href="main.html" ></a> -->
+      <button onclick="startGame()" id="btn-game-start">Start Game</button>
+    </main>
 
-    
-   
-</main>
-
-    
-        <script>
-    function startGame() {
-      let name = document.getElementById("po2").value;
-      if(name.trim() !== ""){
-        localStorage.setItem("playerName", name);
-        window.location.href = "main.html";
-      } else {
-        alert("Please enter a name first!");
+    <script>
+      function startGame() {
+        let name = document.getElementById('input-game-username').value;
+        if (name.trim() !== '') {
+          localStorage.setItem('playerName', name);
+          window.location.href = 'main.html';
+        } else {
+          alert('Please enter a username first!');
+        }
       }
-    }
-  </script>
-
-</body>
+    </script>
+  </body>
 </html>
