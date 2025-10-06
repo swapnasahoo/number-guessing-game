@@ -34,6 +34,7 @@ document.getElementById('btn-guess').onclick = function () {
   if (guess === answer) {
     document.getElementById('input-guess').disabled = true;
     document.getElementById('btn-guess').disabled = true;
+document.getElementById("btn-guess"). innerText = "You won, Refresh to play again"; 
 
     if (attempts >= 1 && attempts < 3) {
       document.getElementById(
