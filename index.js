@@ -46,7 +46,7 @@ document.getElementById('btn-guess').onclick = function () {
     } else if (attempts >= 7 && attempts < 10) {
       document.getElementById(
         'error-message'
-      ).innerText = `😊 You did it! The answer was 1${answer} — took ${attempts} attempts, but you stayed with it.`;
+      ).innerText = `😊 You did it! The answer was ${answer} — took ${attempts} attempts, but you stayed with it.`;
     }
   }
 };
