@@ -18,7 +18,7 @@ document.getElementById('btn-guess').onclick = function () {
       'Please enter a valid number';
   } else if (guess < minNum || guess > maxNum) {
     document.getElementById('error-message').innerText =
-      'Please enter a valid number';
+      'Please enter a number between 1 and 100';
   } else if (attempts === maxattempts) {
     document.getElementById('error-message').innerText =
       'Oops out of guess, Refresh the game to try again';
